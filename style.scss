@@ -499,7 +499,7 @@ a {
         }
         position: relative;
         flex-direction: column;
-        background-image: url('/images/tien-ich.jpg');
+        background-image: url(./images/tien-ich.jpg);
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -776,7 +776,7 @@ a {
 
 .session_8 {
     .intro {
-        background-image: url('/images/bg-gallery.jpg');
+        background-image: url(./images/bg-gallery.jpg);
     }
     .thu-vien-anh {
         .slick-slide {

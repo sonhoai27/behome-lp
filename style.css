@@ -629,7 +629,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("/images/tien-ich.jpg");
+  background-image: url(./images/tien-ich.jpg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -992,7 +992,7 @@ a {
 }
 
 .session_8 .intro {
-  background-image: url("/images/bg-gallery.jpg");
+  background-image: url(./images/bg-gallery.jpg);
 }
 
 .session_8 .thu-vien-anh .slick-slide {
