@@ -794,6 +794,9 @@ a {
             content: '>';
         }
     }
+    .slick-dots li button:before {
+        color: #fff!important;
+    }
 }
 
 .session_8 {
