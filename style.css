@@ -143,7 +143,7 @@ a {
 }
 
 .intro {
-  background-image: url(/images/bg-tong-quan.jpg);
+  background-image: url(./images/bg-tong-quan.jpg);
   background-size: cover;
   background-position: center center;
   color: white;
@@ -388,7 +388,7 @@ a {
 
 .session_2 .intro {
   display: block;
-  background-image: url(/images/bg-location-home.jpg);
+  background-image: url(./images/bg-location-home.jpg);
 }
 
 .session_2 .intro .intro__title .desc {
@@ -861,7 +861,7 @@ a {
 }
 
 .session_6 .intro {
-  background-image: url(/images/maunha-bg.jpg);
+  background-image: url(./images/maunha-bg.jpg);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1020,7 +1020,7 @@ a {
 }
 
 .session_9 .intro {
-  background-image: url(/images/bg-location-home.jpg);
+  background-image: url(./images/bg-location-home.jpg);
 }
 
 .session_9 .intro .item {
@@ -1075,7 +1075,7 @@ a {
 }
 
 .session_10 .intro {
-  background-image: url(/images/bg-tong-quan.jpg);
+  background-image: url(./images/bg-tong-quan.jpg);
 }
 
 .session_10 .intro form {
@@ -1216,7 +1216,7 @@ a {
 }
 
 .session_11 {
-  background-image: url(/images/footer.jpg);
+  background-image: url(./images/footer.jpg);
   height: auto !important;
   padding-top: 50px;
   padding-bottom: 50px;
