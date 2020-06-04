@@ -502,7 +502,9 @@ a {
 
 .session_4 {
     .intro {
-        padding-top: 750px!important;
+        height: auto!important;
+        padding-top: 500px!important;
+        display: block!important;
         .img-mobile {
             display: none;
         }
@@ -540,6 +542,11 @@ a {
                 // .slick-slide {
                 //     width: 160px!important;
                 // }
+            }
+            .slick-slide {
+                display: block;
+                height: auto !important;
+                outline: none;
             }
             div.it {
                 margin-bottom: 16px;

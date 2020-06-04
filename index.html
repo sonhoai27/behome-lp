@@ -902,26 +902,28 @@
             //        }
             //    }
             //});
-        } else {
-            $('.mobile-scroll').slick({
-                rows: 3,
-                infinite: true,
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                autoplay: true,
-                responsive: [{
-                    breakpoint: 480,
-                    settings: {
-                        dots: true,
-                        infinite: true,
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        arrows: false,
-                        rows: 4,
-                    }
-                }]
-            });
         }
+
+        $('.mobile-scroll').slick({
+            arrows: false,
+            rows: 2,
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            autoplay: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 480,
+                settings: {
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    arrows: false,
+                    rows: 4,
+                }
+            }]
+        });
 
         function doAnimations(elements) {
             var animationEndEvents = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';

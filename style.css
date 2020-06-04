@@ -644,7 +644,9 @@ a {
 }
 
 .session_4 .intro {
-  padding-top: 750px !important;
+  height: auto !important;
+  padding-top: 500px !important;
+  display: block !important;
   position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -694,6 +696,12 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.session_4 .intro .mobile-scroll .slick-slide {
+  display: block;
+  height: auto !important;
+  outline: none;
 }
 
 .session_4 .intro .mobile-scroll div.it {
