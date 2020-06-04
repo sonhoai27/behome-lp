@@ -99,7 +99,7 @@ a {
 }
 
 .header .header__main .logo img:first-child {
-  height: 55px;
+  height: 40px;
 }
 
 .header .header__main .logo img:last-child {
@@ -184,14 +184,14 @@ a {
 }
 
 .intro .intro__title h2 {
-  font-size: 42px;
+  font-size: 28px;
   margin-bottom: 20px;
   color: #fab532;
 }
 
 .intro .intro__title h3 {
   color: #fab532;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1;
   margin-bottom: 30px;
@@ -337,7 +337,7 @@ a {
 
 .intro .section_1__rate .rate {
   color: #fab532;
-  font-size: 45px;
+  font-size: 32px;
   line-height: 40px;
   text-transform: uppercase;
   font-weight: 700;
@@ -352,7 +352,7 @@ a {
 }
 
 .intro .section_1__rate .rate.text {
-  font-size: 38px;
+  font-size: 32px;
   line-height: 52px;
 }
 
@@ -675,17 +675,6 @@ a {
       flex-wrap: wrap;
 }
 
-@media (max-width: 768px) {
-  .session_4 .intro .mobile-scroll .slick-track {
-    overflow: hidden;
-    height: 150px !important;
-  }
-  .session_4 .intro .mobile-scroll .slick-slide {
-    height: auto !important;
-    width: 214px !important;
-  }
-}
-
 .session_4 .intro .mobile-scroll div.it {
   margin-bottom: 16px;
   margin-right: 16px;
@@ -698,7 +687,13 @@ a {
   transition: all .3s;
   color: white;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: pointer;
 }
 
@@ -750,6 +745,10 @@ a {
 
 .session_4 .intro .mobile-scroll div.it span:last-child {
   padding-left: 8px;
+  font-size: 14px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .session_5 .intro {

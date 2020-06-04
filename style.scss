@@ -70,7 +70,7 @@ a {
             align-items: center;
             justify-content: center;
             img:first-child {
-                height: 55px;
+                height: 40px;
             }
             img:last-child {
                 width: 160px;
@@ -129,13 +129,13 @@ a {
     }
     .intro__title {
         h2 {
-            font-size: 42px;
+            font-size: 28px;
             margin-bottom: 20px;
             color: $primaryColor;
         }
         h3 {
             color: $primaryColor;
-            font-size: 28px;
+            font-size: 20px;
             font-weight: 300;
             line-height: 1;
             margin-bottom: 30px;
@@ -244,7 +244,7 @@ a {
         margin-top: 40px;
         .rate {
             color: #fab532;
-            font-size: 45px;
+            font-size: 32px;
             line-height: 40px;
             text-transform: uppercase;
             font-weight: 700;
@@ -254,7 +254,7 @@ a {
                 font-size: 32px;
             }
             &.text {
-                font-size: 38px;
+                font-size: 32px;
                 line-height: 52px;
                 @media (max-width: 768px) {
                     font-size: 24px;
@@ -521,14 +521,13 @@ a {
             display: flex;
             flex-wrap: wrap;
             @media (max-width: 768px) {
-                .slick-track {
-                    overflow: hidden;
-                    height: 150px !important;
-                }
-                .slick-slide {
-                    height: auto!important;
-                    width: 214px!important;
-                }
+                // .slick-track {
+                //     overflow: hidden;
+                //     // height: 150px !important;
+                // }
+                // .slick-slide {
+                //     width: 160px!important;
+                // }
             }
             div.it {
                 margin-bottom: 16px;
@@ -541,7 +540,9 @@ a {
                 transition: all .3s;
                 color: white;
                 font-weight: 600;
-                font-size: 18px;
+                font-size: 16px;
+                display: flex!important;
+                align-items: center;
                 &:hover {
                     background-color: rgba(255, 255, 255, 0.529);
                     color: #fab532;
@@ -580,6 +581,8 @@ a {
                 }
                 span:last-child {
                     padding-left: 8px;
+                    font-size: 14px;
+                    flex: 1;
                 }
             }
         }

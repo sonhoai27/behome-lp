@@ -243,10 +243,10 @@
                         </div>
                         <div class="btn-contact" style="text-transform: uppercase;">
                             <a class="d-mobile" href=" #lien-he">
-                                <span>liên hệ</span>
+                                <span style="text-transform: uppercase;">liên hệ</span>
                             </a>
                             <a class="d-pc" href=" #lien-he">
-                                <span class="text-uppercase">liên hệ</span>
+                                <span style="text-transform: uppercase;">liên hệ</span>
                             </a>
                         </div>
                         <div class="benefit">
@@ -623,9 +623,6 @@
                                         <img src="./images/thu-vien-anh/4.jpg" alt="" class="img img-fluid">
                                     </div>
                                     <div class="item">
-                                        <img src="./images/thu-vien-anh/5.jpg" alt="" class="img img-fluid">
-                                    </div>
-                                    <div class="item">
                                         <img src="./images/thu-vien-anh/6.jpg" alt="" class="img img-fluid">
                                     </div>
                                     <div class="item">
@@ -634,7 +631,9 @@
                                     <div class="item">
                                         <img src="./images/thu-vien-anh/8.jpg" alt="" class="img img-fluid">
                                     </div>
-
+                                    <div class="item">
+                                        <img src="./images/thu-vien-anh/12.jpg" alt="" class="img img-fluid">
+                                    </div>
                                 </div>
                                 <div>
                                     <div class="item">
@@ -653,19 +652,16 @@
                                         <img src="./images/thu-vien-anh/4.jpg" alt="" class="img img-fluid">
                                     </div>
                                     <div class="item">
-                                        <img src="./images/thu-vien-anh/5.jpg" alt="" class="img img-fluid">
-                                    </div>
-                                    <div class="item">
                                         <img src="./images/thu-vien-anh/9.jpg" alt="" class="img img-fluid">
                                     </div>
                                     <div class="item">
                                         <img src="./images/thu-vien-anh/3.jpg" alt="" class="img img-fluid">
                                     </div>
+                                    <div class="item">
+                                        <img src="./images/thu-vien-anh/12.jpg" alt="" class="img img-fluid">
+                                    </div>
                                 </div>
                                 <div>
-                                    <div class="item">
-                                        <img src="./images/thu-vien-anh/5.jpg" alt="" class="img img-fluid">
-                                    </div>
                                     <div class="item">
                                         <img src="./images/thu-vien-anh/7.jpg" alt="" class="img img-fluid">
                                     </div>
@@ -686,6 +682,9 @@
                                     </div>
                                     <div class="item">
                                         <img src="./images/thu-vien-anh/3.jpg" alt="" class="img img-fluid">
+                                    </div>
+                                    <div class="item">
+                                        <img src="./images/thu-vien-anh/12.jpg" alt="" class="img img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -907,10 +906,20 @@
             $('.mobile-scroll').slick({
                 rows: 3,
                 infinite: true,
-                speed: 5000,
-                autoplaySpeed: 5000,
                 slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToScroll: 2,
+                autoplay: true,
+                responsive: [{
+                    breakpoint: 480,
+                    settings: {
+                        dots: true,
+                        infinite: true,
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        arrows: false,
+                        rows: 4,
+                    }
+                }]
             });
         }
 
@@ -936,8 +945,8 @@
         $('.slides.mobile').slick({
             autoplay: true,
             infinite: true,
-            speed: 1000,
-            autoplaySpeed: 1000,
+            speed: 5000,
+            autoplaySpeed: 5000,
             arrows: false,
             draggable: true,
             fade: true,
