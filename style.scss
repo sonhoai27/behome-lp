@@ -118,7 +118,7 @@ a {
 }
 
 .intro {
-    background-image: url(/images/bg-tong-quan.jpg);
+    background-image: url(./images/bg-tong-quan.jpg);
     @include banner();
     padding-top: 80px!important;
     padding-bottom: 80px!important;
@@ -286,7 +286,7 @@ a {
 .session_2 {
     .intro {
         display: block;
-        background-image: url(/images/bg-location-home.jpg);
+        background-image: url(./images/bg-location-home.jpg);
         .intro__title {
             .desc {
                 text-align: left;
@@ -677,7 +677,7 @@ a {
 
 .session_6 {
     .intro {
-        background-image: url(/images/maunha-bg.jpg);
+        background-image: url(./images/maunha-bg.jpg);
         flex-direction: column;
         width: 100%;
         justify-content: center;
@@ -799,7 +799,7 @@ a {
 
 .session_9 {
     .intro {
-        background-image: url(/images/bg-location-home.jpg);
+        background-image: url(./images/bg-location-home.jpg);
         .item {
             margin-bottom: 20px;
             &:hover {
@@ -844,7 +844,7 @@ a {
 
 .session_10 {
     .intro {
-        background-image: url(/images/bg-tong-quan.jpg);
+        background-image: url(./images/bg-tong-quan.jpg);
         form {
             width: 100%;
             .form {
@@ -943,7 +943,7 @@ a {
 }
 
 .session_11 {
-    background-image: url(/images/footer.jpg);
+    background-image: url(./images/footer.jpg);
     height: auto!important;
     padding-top: 50px;
     padding-bottom: 50px;
