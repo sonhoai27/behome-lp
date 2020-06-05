@@ -645,7 +645,7 @@ a {
 
 .session_4 .intro {
   height: auto !important;
-  padding-top: 500px !important;
+  padding-top: 700px !important;
   display: block !important;
   position: relative;
   -webkit-box-orient: vertical;
@@ -670,7 +670,7 @@ a {
 }
 
 .session_4 .intro h2 {
-  color: white;
+  color: #fab532;
 }
 
 @media (max-width: 768px) {
@@ -830,6 +830,7 @@ a {
   .session_5 .intro .item p {
     font-size: 13px;
     line-height: 1.2;
+    padding: 0 16px;
   }
 }
 
@@ -846,12 +847,6 @@ a {
   background-color: #fab532;
 }
 
-@media (max-width: 768px) {
-  .session_5 .intro .container.mt-5 .row:first-child:after {
-    all: unset;
-  }
-}
-
 .session_5 .intro .container.mt-5 .col-4:nth-child(2) .item:after {
   content: "";
   display: block;
@@ -865,8 +860,48 @@ a {
 }
 
 @media (max-width: 768px) {
+  .session_5 .intro .container.mt-5 .row:first-child:after {
+    all: unset;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    background-color: #fab532;
+  }
+
+  .session_5 .intro .container.mt-5 .col-4 {
+    padding: 0;
+  }
+
+  .session_5 .intro .container.mt-5 .col-4:nth-child(2) .item:after, .session_5 .intro .container.mt-5 .col-4:nth-child(5) .item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 80%;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #fab532;
+  }
+
   .session_5 .intro .container.mt-5 .col-4:nth-child(2) .item:after {
     all: unset;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #fab532;
   }
 }
 
@@ -885,6 +920,15 @@ a {
 @media (max-width: 768px) {
   .session_5 .intro .container.mt-5 .col-4:nth-child(2) .item:before {
     all: unset;
+    content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #fab532;
   }
 }
 
